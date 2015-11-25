@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+html, body{
+	height:100% !important;
+	overflow: hidden !important;
+} 
+.webPage.webPage{
+	width: 100% !important;
+	height: 100% !important;
+	border: none;
+	overflow: hidden !important;
+}
