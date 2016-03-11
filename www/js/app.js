@@ -22,11 +22,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
     
     if(navigator.onLine == true){
-      if (ionic.Platform.platform() == 'windowsphone'){	
-        //window.location.href = "isWp8.html";
-        window.location.href = "http://www.hapvida.com.br/pls/webhap/webnewhapmovel.pr_menu_movel";
+        window.location.href = "http://10.1.22.30:8888/apex/hospital/f?p=101";
         return false;
-      }		
     }else{
       window.location.href = "noConnection.html";
     }
